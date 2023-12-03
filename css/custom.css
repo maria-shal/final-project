@@ -239,7 +239,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
 }
 
 h3, .h3 {
@@ -247,12 +247,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.5rem;
-  }
+  font-size: var(--font-size-md);
 }
 
 h5, .h5 {
@@ -8246,7 +8241,7 @@ textarea.form-control-lg {
 }
 
 .fs-2 {
-  font-size: var(--font-size-xxl) !important;
+  font-size: var(--font-size-xl) !important;
 }
 
 .fs-3 {
@@ -8254,7 +8249,7 @@ textarea.form-control-lg {
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: var(--font-size-md) !important;
 }
 
 .fs-5 {
@@ -11803,11 +11798,6 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
-  .fs-4 {
-    font-size: 1.5rem !important;
-  }
-}
 @media print {
   .d-print-inline {
     display: inline !important;
@@ -11849,6 +11839,10 @@ body {
 
 body {
   background-color: #f8f9fa;
+}
+
+nav {
+  border: 2px solid #000;
 }
 
 /*# sourceMappingURL=custom.css.map */

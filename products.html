@@ -31,14 +31,14 @@
           </nav>
     </header>
     <section>
-      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Quick Links</button>
+      <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Quick Links</button>
     
-      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas offcanvas-start bg-dark text-light" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h2>Quick Links</h2>
+            <h3>Quick Links</h3>
               <p>Scholastic</p>
               <p>Penguin Group</p>
               <p>NPR</p>
@@ -49,8 +49,8 @@
               <p>Amazon</p>
               <p>Authors Guild</p>
     
-            <h2>Selected Works</h2>
-              <h3>Picture book</h3>
+            <h3>Selected Works</h3>
+              <h4>Picture book</h4>
                 <p>YEAR OF THE JUNGLE</p>
                   <blockquote>"Important and necessary."
                   <cite>--Kirkus Reviews, STARRED REVIEW
@@ -61,7 +61,7 @@
                   <cite>--School Library Journal</cite>
                 </blockquote>
     
-              <h3>Sci-Fi</h3>
+              <h4>Sci-Fi</h4>
                 <p>Mocking Jay</p>
                 <blockquote>"...every bit as original and thought provoking, as The Hunger Games. Wow."
                   <cite>--Los Angeles Times</cite>
@@ -76,7 +76,7 @@
                   <blockquote>“...a superb tale of physical adventure, political suspense, and romance."
                     <cite>--Booklist, STARRED REVIEW</cite>
                   </blockquote>
-              <h3>Fantasy</h3>
+              <h4>Fantasy</h4>
                 <p>Gregor The Overlander</p>
                   <blockquote>“...readers will likely find [the Underland] to be a fantastically engaging place.”
                     <cite>--Publishers Weekly, STARRED REVIEW</cite>
@@ -107,7 +107,31 @@
     
     <main>
 
-    <section>
+     <section>
+        <div class="container px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="images/writers-guild.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="mb-3">Support us</h2>
+                <p>Out picketing to support the WGA strike with Michael Arndt, one of our screenwriters for both Catching Fire and The Ballad of Songbirds & Snakes films.In Solidarity!</p>
+                <p>Click on the link below to visit an authors page where you can meet and support others!</p>
+              <h2 class="mb-3">Where to Purchase</h2>
+              <p>Scholastic</p>
+              <p>Penguin Group</p>
+              <p>Amazon</p>
+              <p>Barnes & Noble</p>
+              <p>Books-A-Million</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+      
+
+    <!-- <section>
       <img src="images/writers-guild.jpg" alt=""/>
         <h2>Support Us</h2>
             <p>Out picketing to support the WGA strike with Michael Arndt, one of our screenwriters for both Catching Fire and The Ballad of Songbirds & Snakes films.In Solidarity!</p>
@@ -122,15 +146,29 @@
         <p>Amazon</p>
         <p>Barnes & Noble</p>
         <p>Books-A-Million</p>
+    </section> -->
+
+    <section class="bg-dark text-light py-5">
+      <div class="container p-5">
+        <div class="row mb-4">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="images/hunger-games.jpg" alt="">
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <h3 class="mb-4">Hunger Games Series</h3>
+              <p>The capitol of Panem maintains a hold on 12 districts by forcing them to each select a boy and girl to compete in an event called the Hunger Games.</p>
+                <button type="button" class="btn btn-light btn-md px-3 me-md-2 text-dark">Click here</button>
+          </div>
+        </div>
     </section>
 
-    <section>
+    <!-- <section>
       <h2>Book Series</h2>
       <img src="images/hunger-games.jpg" alt=""/>
     <h3>Hunger Games Series</h3>
       <p>The capitol of Panem maintains a hold on 12 districts by forcing them to each select a boy and girl to compete in an event called the Hunger Games. </p>
       <a href="#" class="btn btn-dark">Click here for more</a>
-  </section>
+  </section> -->
 
 
 </main>
