@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/custom.css">
     <title>Document</title>
-    <link rel="icon" type="images/favicon_io/favicon.ico" href="/images/favicon_io/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
 </head>
 <body>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>   
     <header>
-        <h1>Suzanne Collins</h1>
+      <div class="bg-dark text-light py-3">
+        <h1 class="mt-5 ps-4">Suzanne Collins</h1>
+      </div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -28,7 +30,7 @@
           </nav>
     </header>
     <section>
-      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Side Bar</button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Quick Links</button>
     
       <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
@@ -112,25 +114,63 @@
             <a href="#" class="btn btn-dark">Click here for more</a>
   </section>
 
+
   <section>
-  <img src="images/book-review.jpg">
-    <h3>The Ballad of Songbirds and Snakes</h3>
-        <p>#1 USA TODAY BESTSELLER</p>
-        <p>#1 NEW YORK TIMES BESTSELLER</p>
-        <p>#1 WALL STREET JOURNAL BESTSELLER</p>
-        <p>#1 PUBLISHERS WEEKLY BESTSELLER</p>
-        <p>A BARNES & NOBLE BEST YA SCIENCE FICTION AND FANTASY BOOK OF 2020</p>
-        <p>AN AMAZON BEST SCIENCE FICTION AND FANTASY BOOK OF 2020</p>
-        <p>A NEW YORK TIMES EDITORS' CHOICE</p>
-        <p>2020 GOODREADS CHOICE AWARD FINAL ROUND--YA FANTASY</p>
-        <p>WATERSTONES BEST BOOKS OF 2020: SCIENCE FICTION & FANTASY</p>
-        <p>COSMOPOLITAN'S 20 BEST YA BOOKS OF 2020</p>
-        <p>TODAY'S BEST YA BOOKS OF 2020</p>
-        <p>2021 KIDS' BOOK CHOICE AWARDS FINALIST</p>
-        <p>BEST FANTASY WORLD BUILDER</p>
-        <p>SUZANNE COLLINS/THE BALLAD OF SONGBIRDS AND SNAKES</p>
-        <p>A HUNGER GAMES NOVEL</p>
-  </section>
+    <div class="container p-5">
+      <div class="row mb-4">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="images/book-review.jpg" alt="">
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <h2 class="mb-4">The Ballad of Songbirds and Snakes</h2>
+          <p class="lead">#1 USA TODAY BESTSELLER</p>
+          <p class="lead">#1 NEW YORK TIMES BESTSELLER</p>
+          <p class="lead">#1 PUBLISHERS WEEKLY BESTSELLER</p>
+          <p class="lead">A BARNES & NOBLE BEST YA SCIENCE FICTION AND FANTASY BOOK OF 2020</p>
+          <p class="lead">AN AMAZON BEST SCIENCE FICTION AND FANTASY BOOK OF 2020</p>
+          <p class="lead">A NEW YORK TIMES EDITORS' CHOICE</p>
+          <p class="lead">2020 GOODREADS CHOICE AWARD FINAL ROUND--YA FANTASY</p>
+          <p class="lead">WATERSTONES BEST BOOKS OF 2020: SCIENCE FICTION & FANTASY</p>
+          <p class="lead">COSMOPOLITAN'S 20 BEST YA BOOKS OF 2020</p>
+          <p class="lead">TODAY'S BEST YA BOOKS OF 2020</p>
+          <p class="lead">2021 KIDS' BOOK CHOICE AWARDS FINALIST</p>
+          <p class="lead">BEST FANTASY WORLD BUILDER</p>
+          <p class="lead">SUZANNE COLLINS/THE BALLAD OF SONGBIRDS AND SNAKES</p>
+          <p class="lead">A HUNGER GAMES NOVEL</p>
+        </div>
+      </div>
+    </section>
+    
+  <!-- <section>
+    <div class="container px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <img src="images/book-review.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="mb-3">The Ballad of Songbirds and Snakes</h3>
+          <p class="lead">#1 USA TODAY BESTSELLER</p>
+          <p class="lead">#1 NEW YORK TIMES BESTSELLER</p>
+          <p class="lead">#1 PUBLISHERS WEEKLY BESTSELLER</p>
+          <p class="lead">A BARNES & NOBLE BEST YA SCIENCE FICTION AND FANTASY BOOK OF 2020</p>
+          <p class="lead">AN AMAZON BEST SCIENCE FICTION AND FANTASY BOOK OF 2020</p>
+          <p class="lead">A NEW YORK TIMES EDITORS' CHOICE</p>
+          <p class="lead">2020 GOODREADS CHOICE AWARD FINAL ROUND--YA FANTASY</p>
+          <p class="lead">WATERSTONES BEST BOOKS OF 2020: SCIENCE FICTION & FANTASY</p>
+          <p class="lead">COSMOPOLITAN'S 20 BEST YA BOOKS OF 2020</p>
+          <p class="lead">TODAY'S BEST YA BOOKS OF 2020</p>
+          <p class="lead">2021 KIDS' BOOK CHOICE AWARDS FINALIST</p>
+          <p class="lead">BEST FANTASY WORLD BUILDER</p>
+          <p class="lead">SUZANNE COLLINS/THE BALLAD OF SONGBIRDS AND SNAKES</p>
+          <p class="lead">A HUNGER GAMES NOVEL</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Click here</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  
 </main>
 
 </body>
