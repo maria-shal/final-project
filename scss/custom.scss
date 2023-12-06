@@ -24,7 +24,6 @@ $p-font-size: var(--font-size-sm);
 $line-height-base: 1.2;
 
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -40,4 +39,12 @@ $dark: #3b3bc0;
 
 nav {
   border: 2px solid #000;
+}
+
+@media (max-width: 38em) {
+  .photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
 }
