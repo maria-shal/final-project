@@ -31,16 +31,28 @@ $line-height-base: 1.2;
 body {
     background-color: $light;
 }
-body {
-  background-color: $light;
+
+.header {
+  background-color: #F4CCA7;
 }
 
-$dark: #3b3bc0;
+.offcanvas-body {
+  background-color: #FFEFE1;
+}
 
 nav {
   border: 2px solid #000;
 }
 
+.outline {
+  border: 2px solid #000;
+  background-color: #839EC7;
+}
+
+.box {
+  border: 2px solid #000;
+  background-color: white;
+}
 @media (max-width: 38em) {
   .photo {
     display: grid;

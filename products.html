@@ -10,8 +10,8 @@
 <body>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
     
-    <header>
-      <div class="bg-dark text-light py-3"> 
+    <header class= "header">
+      <div class="py-3"> 
         <h1 class="mt-5 ps-4">Suzanne Collins</h1>
       </div> 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -31,9 +31,9 @@
           </nav>
     </header>
     <section>
-      <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Quick Links</button>
+      <button class="btn btn-outline-dark m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Quick Links</button>
     
-      <div class="offcanvas offcanvas-start bg-dark text-light" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -118,11 +118,13 @@
                 <p>Out picketing to support the WGA strike with Michael Arndt, one of our screenwriters for both Catching Fire and The Ballad of Songbirds & Snakes films.In Solidarity!</p>
                 <p>Click on the link below to visit an authors page where you can meet and support others!</p>
               <h2 class="mb-3">Where to Purchase</h2>
-              <p>Scholastic</p>
-              <p>Penguin Group</p>
-              <p>Amazon</p>
-              <p>Barnes & Noble</p>
-              <p>Books-A-Million</p>
+              <ul>
+              <li>Scholastic</li>
+              <li>Penguin Group</li>
+              <li>Amazon</li>
+              <li>Barnes & Noble</li>
+              <li>Books-A-Million</li>
+            </ul>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               </div>
             </div>
@@ -130,8 +132,8 @@
         </div>
     </section>
 
-    <section class="bg-dark text-light py-5">
-      <div class="container p-5">
+    <section class="outline p-5">
+      <div class=" box container p-5">
         <div class="row mb-4">
           <div class="col-lg-6">
             <img class="img-fluid" src="images/hunger-games.jpg" alt="">
@@ -139,7 +141,7 @@
           <div class="col-lg-6 align-self-center">
             <h3 class="mb-4">Hunger Games Series</h3>
               <p>The capitol of Panem maintains a hold on 12 districts by forcing them to each select a boy and girl to compete in an event called the Hunger Games.</p>
-                <button type="button" class="btn btn-light btn-md px-3 me-md-2 text-dark">Click here</button>
+                <button type="button" class="btn btn-outline-secondary btn-md px-3 me-md-2 text-dark">Click here</button>
           </div>
         </div>
     </section>

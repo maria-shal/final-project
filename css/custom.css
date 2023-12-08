@@ -11837,12 +11837,26 @@ body {
   background-color: #f8f9fa;
 }
 
-body {
-  background-color: #f8f9fa;
+.header {
+  background-color: #F4CCA7;
+}
+
+.offcanvas-body {
+  background-color: #FFEFE1;
 }
 
 nav {
   border: 2px solid #000;
+}
+
+.outline {
+  border: 2px solid #000;
+  background-color: #839EC7;
+}
+
+.box {
+  border: 2px solid #000;
+  background-color: white;
 }
 
 @media (max-width: 38em) {
